@@ -1,0 +1,101 @@
+/* style.css */
+
+/* Basic Reset (Optional, but often recommended) */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, button, table {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes padding and border included in element's total width and height */
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa; /* Light gray background, similar to Bootstrap's */
+  }
+  
+  .container {
+    max-width: 960px; /* Adjust as needed */
+    margin: 20px auto; /* Center the content */
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem; /* Larger heading */
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style-type: disc; /* Use bullet points */
+    margin-bottom: 1.5rem;
+    padding-left: 20px; /* Add some left padding */
+  }
+  
+  li {
+    margin-bottom: 0.5rem; /* Space list items */
+  }
+  
+  .btn-primary { /* Style the Bootstrap button further if needed */
+    /* Example: */
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #dee2e6; /* Light gray border */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light gray background for header */
+    font-weight: bold;
+  }
+  
+  /* Optional: Zebra stripes for table rows */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Optional: Hover effect for table rows */
+  tr:hover {
+    background-color: #e9ecef;
+  }
+
+  /* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #dee2e6; /* Add a border to the table itself */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dee2e6; /* Add borders to table cells */ /* This is the key change */
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Optional: Zebra stripes for table rows */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Optional: Hover effect for table rows */
+  tr:hover {
+    background-color: #e9ecef;
+  }
