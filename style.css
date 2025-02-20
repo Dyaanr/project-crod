@@ -1,5 +1,7 @@
 /* style.css */
 
+<<<<<<< HEAD
+=======
 /* Basic Reset (Optional, but often recommended) */
 html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, button, table {
     margin: 0;
@@ -90,6 +92,7 @@ table {
     font-weight: bold;
   }/* style.css */
 
+>>>>>>> 78e03a1b1b5433f03a23eed8d40dbbeb92d0a642
 /* Basic Reset */
 html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, button, table {
     margin: 0;
@@ -97,32 +100,45 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, button
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
 /* Set a background image for the body */
+>>>>>>> 78e03a1b1b5433f03a23eed8d40dbbeb92d0a642
 body {
     font-family: sans-serif;
     line-height: 1.6;
     color: #333;
+<<<<<<< HEAD
+    background-color: #f8f9fa;
+=======
     background-image: url('background.jpg'); /* Path to your background image */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-attachment: fixed; /* Fix the background while scrolling */
     min-height: 100vh; /* Ensure the body covers the full viewport height */
+>>>>>>> 78e03a1b1b5433f03a23eed8d40dbbeb92d0a642
 }
 
 .container {
     max-width: 960px;
     margin: 20px auto;
     padding: 20px;
+<<<<<<< HEAD
+=======
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
     border-radius: 8px; /* Optional: Add rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+>>>>>>> 78e03a1b1b5433f03a23eed8d40dbbeb92d0a642
 }
 
 h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+<<<<<<< HEAD
+=======
     color: #333; /* Ensure text is readable */
+>>>>>>> 78e03a1b1b5433f03a23eed8d40dbbeb92d0a642
 }
 
 ul {
@@ -140,20 +156,32 @@ li {
     font-size: 1rem;
 }
 
+<<<<<<< HEAD
+/* Table styles (COMBINED AND CORRECTED) */
+=======
 /* Table styles */
+>>>>>>> 78e03a1b1b5433f03a23eed8d40dbbeb92d0a642
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     margin-bottom: 20px;
+<<<<<<< HEAD
+    border: 3px solid #dee2e6; /* Border for the table itself */
+=======
     border: 3px solid #dee2e6;
     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for the table */
+>>>>>>> 78e03a1b1b5433f03a23eed8d40dbbeb92d0a642
 }
 
 th, td {
     padding: 10px;
     text-align: left;
+<<<<<<< HEAD
+    border: 1px solid #dee2e6; /* Border for table cells */
+=======
     border: 1px solid #dee2e6;
+>>>>>>> 78e03a1b1b5433f03a23eed8d40dbbeb92d0a642
 }
 
 th {
@@ -161,6 +189,15 @@ th {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra stripes */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Hover effect */
+}
+=======
 /* Optional: Zebra stripes for table rows */
 tr:nth-child(even) {
     background-color: #f9f9f9;
@@ -180,3 +217,4 @@ tr:hover {
   tr:hover {
     background-color: #e9ecef;
   }
+>>>>>>> 78e03a1b1b5433f03a23eed8d40dbbeb92d0a642
